@@ -1,30 +1,41 @@
 import React from 'react';
+import "../css/style.css"
 
 const Main = () => {
+
   return (
     <div style={{  backgroundColor: "#d9d7ed", position: "relative", zIndex: 9 }} className='mt-5'>
+      
       <div
-        className="header-img text-center d-flex align-items-center justify-content-center"
+        className="text-center d-flex align-items-center justify-content-center"
         style={{height: "770px" }}
       >
+
+
         <div className="lh-1 mt-5 ">
+
+
+
+        <div className="animationtext">
+  <div className="typewriter mb-4">Hello! I'am Nihal Tekin</div>
+   </div>
           <img
             src="https://t4.ftcdn.net/jpg/04/38/74/17/360_F_438741771_0SVnMELBZBzZkpiaV9Ng9l1HmzSV3E8u.jpg"
             alt="Header Image"
-            className='border rounded-circle w-50'
+            className='border rounded-circle w-50 mb-5' />
 
-         
-          />
-          <p className="fs-2 mt-3">Nihal Tekin</p>
           <p className="fs-5 fw-light">
-          Willkommen auf meiner Portfolio-Seite 🤗 
+         
+        Willkommen auf meiner Portfolio-Seite 🤗 
             <hr></hr>
          Ich bin ein Full-Stack-Entwickler. Es macht mir Spaß, Websites zu erstellen. Mein Fokus liegt auf React.
           </p>
-         
-          <a href="mailto:nihalpolattekin@gmail.com" target="blank">
+
+          <div className="d-flex justify-content-center align-items-center">         
+          
+           <a href="mailto:nihalpolattekin@gmail.com" target="blank">
           <button
-            className="teklifbutton border rounded-pill bg-dark"
+            className="button border rounded-pill bg-dark"
             style={{ height: "40px", width: "160px", color: "white" }}
           >
           Contact me here →
@@ -33,9 +44,9 @@ const Main = () => {
             
           <button
             className="teklifbutton border rounded-pill ms-2 me-2"
-            style={{ height: "40px", width: "150px",  }}
+            style={{ height: "40px", width: "160px",  }}
           >
-                <a download="" href="#" className=" text-decoration-none text-black">Download CV <i class="fa-solid fa-arrow-down" />
+                <a download="" href="#" className=" text-decoration-none text-black d-flex ms-2 text-center">Download CV <i className="fa-solid fa-arrow-down ms-1" />
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -63,18 +74,12 @@ const Main = () => {
               </svg>
                 </a>
           </button>
-          <a className="teklifbutton border rounded-circle p-1 bg-white text-decoration-none text-white me-2" 
-        href="https://www.linkedin.com/in/nihaltekin/">
-            <i className="fab fa-linkedin" style={{color:'black'}} ></i>
-          </a>
-          <a className="teklifbutton border rounded-circle p-1 bg-white text-decoration-none text-white" href="https://www.xing.com/profile/nihal_tekin096610/cv">
-          <i class="fa-brands fa-xing" style={{color:'black'}}></i>
-          </a>
-          <a className="teklifbutton border rounded-circle p-1 bg-white text-decoration-none text-white" href="https://github.com/nihalptekin">
-          <i class="fa-brands fa-github" style={{color:'black'}} ></i>
-          </a>
+          </div>
+         
+
         </div>
       </div>
+
     </div>
   );
 }

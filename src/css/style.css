@@ -1,0 +1,32 @@
+.animationtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.typewriter {
+	width: 10ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 5s step-start infinite, 
+    text 2s steps(9) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
