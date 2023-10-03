@@ -49,11 +49,11 @@ const About = () => {
             </h4>
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 ">
           <img
             src="https://thumbs.dreamstime.com/b/vertical-collage-program-developer-shocked-business-lady-hands-cheeks-use-laptop-freelancer-big-money-income-isolated-pink-282869628.jpg"
             alt="aboutimage"
-            style={{ width: "75%", height: "auto" }}
+            style={{ width: "50%", height: "auto" }}
           />
         </div>
       </div>

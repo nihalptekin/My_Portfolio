@@ -4,7 +4,7 @@ import Work3 from "../../assets/movieApp.gif";
 import Work4 from "../../assets/recipe.gif";
 import Work5 from "../../assets/countries.gif";
 import Work6 from "../../assets/nba.gif";
-import Work7 from "../../assets/imageGallery.gif";
+
 
 
 
@@ -60,14 +60,8 @@ export const projectsData = [
     link2: "https://github.com/nihalptekin/NBM_Legends",
     category: "Elementary",
   },
-  {
-    id: 7,
-    image: Work7,
-    title: "Image Gallery",
-    link: "https://001-image-galeri.vercel.app/",
-    link2: "https://github.com/nihalptekin/001-Image-Galeri",
-    category: "Elementary",
-  },
+
+ 
 ];
 
 export const projectsNav = [
